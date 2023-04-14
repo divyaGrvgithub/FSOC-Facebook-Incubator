@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Post 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <WithStyles(Post)
+    _id="1"
+    addComment={[Function]}
+    author="testAuthor"
+    authorId="123abc"
+    avatarColor={7}
+    comments={Array []}
+    deleteComment={[Function]}
+    deletePost={[Function]}
+    editComment={[Function]}
+    editPost={[Function]}
+    getUser={[Function]}
+    likers={Array []}
+    likesCount={0}
+    signedInUserId="123abcd"
+    text="testText"
+    timestamp={12345}
+    updatePostLikes={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "_id": "1",
+      "addComment": [Function],
+      "author": "testAuthor",
+      "authorId": "123abc",
+      "avatarColor": 7,
+      "classes": Object {
+        "actions": "Post-actions-1",
+        "card": "Post-card-2",
+        "expand": "Post-expand-4",
+        "expandOpen": "Post-expandOpen-5",
+        "link": "Post-link-3",
+      },
+      "comments": Array [],
+      "deleteComment": [Function],
+      "deletePost": [Function],
+      "editComment": [Function],
+      "editPost": [Function],
+      "getUser": [Function],
+      "likers": Array [],
+      "likesCount": 0,
+      "signedInUserId": "123abcd",
+      "text": "testText",
+      "timestamp": 12345,
+      "updatePostLikes": [Function],
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "_id": "1",
+        "addComment": [Function],
+        "author": "testAuthor",
+        "authorId": "123abc",
+        "avatarColor": 7,
+        "classes": Object {
+          "actions": "Post-actions-1",
+          "card": "Post-card-2",
+          "expand": "Post-expand-4",
+          "expandOpen": "Post-expandOpen-5",
+          "link": "Post-link-3",
+        },
+        "comments": Array [],
+        "deleteComment": [Function],
+        "deletePost": [Function],
+        "editComment": [Function],
+        "editPost": [Function],
+        "getUser": [Function],
+        "likers": Array [],
+        "likesCount": 0,
+        "signedInUserId": "123abcd",
+        "text": "testText",
+        "timestamp": 12345,
+        "updatePostLikes": [Function],
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

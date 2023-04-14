@@ -1,0 +1,42 @@
+{
+  "name": "social-network",
+  "version": "1.0.0",
+  "description": "Social network app to be created with MERN stack. Work in progress.",
+  "main": "index.js",
+  "engines": {
+    "node": "10.9.0"
+  },
+  "scripts": {
+    "test": "cd client && npm test",
+    "start": "concurrently \"npm run client\" \"npm run server\"",
+    "start:watch": "concurrently \"npm run client\" \"npm run server:watch\"",
+    "server": "cd backend && node server.js",
+    "server:watch": "cd backend && nodemon server.js",
+    "client": "cd client && npm start",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "author": "Divyamala Tiwari",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.0.1",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.2.13",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "nodemon": "^1.18.4"
+  }
+}
